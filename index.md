@@ -3,7 +3,7 @@ layout: default
 ---
 
 # **Hey!** **I'm svloogz**
-### I'm a learning programmer and am open to learning at all times
+## I'm a learning programmer and am open to learning at all times
 
 ### I'm learning these languages:
 - HTML
