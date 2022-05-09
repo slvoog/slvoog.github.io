@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+    <script src="js/index.js"></script> <script src="js/index/socials.js"></script>
+    <link rel="stylesheet" href="style/index/index.css"> <link rel="stylesheet" href="style/index/darkmode.css">
+    <title>svloogz</title>
+</head>
+<body>
+    <script>
+        function home() {
+            window.open("index.html", "_self");
+        }
+    </script>
+    <div class="h">
+        <div class="h_" onclick="home()">
+            <h1>svloogz</h1>
+        </div> <div class="h__">
+            <img src="assets/moon.png" alt="Dark Mode" height="25px" onclick="darkLight()" id="darkSwitch">
+        </div> <div class="h_pfp" onclick="home()">
+            <img src="assets/pfp-color.png" alt="pfp" height="32" class="bottom">
+            <img src="assets/pfp-bw.png" alt="pfp" height="32" class="top">
+        </div>
+    </div>
+    <div class="b">
+        <div class="b_">
+            <span id="name">svloogz</span>
+        </div> <div class="b__">
+            frontend developer, graphic designer
+        </div> <div class="socials">
+            <a href="https://github.com/slvoog"><img src="assets/svg/github.svg" alt="Github" class="github" height="34" onmouseover="githubHover(true)" onmouseleave="githubHover(false)"></a>
+            <a href="projects.html"><img src="assets/svg/projects.svg" alt="Projects" class="projects" height="34" onmouseover="projectsHover(true)" onmouseleave="projectsHover(false)"></a>
+            <a href="mailto:svloogz@gmail.com"><img src="assets/svg/email.svg" alt="Email" class="email" height="34" onmouseover="emailHover(true)" onmouseleave="emailHover(false)"></a>
+            <a href="https://discord.gg/server-not-complete"><img src="assets/svg/discord.svg" alt="Discord Server" class="discord" height="30" onmouseover="discordHover(true)" onmouseleave="discordHover(false)"></a>
+            <a href="https://twitter.com/svloogz"><img src="assets/svg/twitter.svg" alt="Twitter" class="twitter" height="34" onmouseover="twitterHover(true)" onmouseleave="twitterHover(false)"></a>
+        </div>
+    </div>
+</body>
+</html>

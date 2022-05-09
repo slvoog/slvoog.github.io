@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+    <script src="js/index.js"></script> <script src="js/projects/projects.js"></script>
+    <link rel="stylesheet" href="style/projects/index.css">
+    <title>svloogz</title>
+</head>
+<body>
+    <script>
+        function home() {
+            window.open("index.html", "_self");
+        }
+    </script>
+    <div class="h" onclick="home()">
+        <div class="h_">
+            <h1>svloogz</h1>
+        </div> <div class="h__">
+            <!-- whats this i see <img src="assets/moon.png" alt="Dark Mode" height="25px" onclick="darkLight()" id="darkSwitch"> -->
+        </div> <div class="h_pfp">
+            <img src="assets/pfp-color.png" alt="pfp" height="32" class="bottom">
+            <img src="assets/pfp-bw.png" alt="pfp" height="32" class="top">
+        </div>
+    </div>
+    <div class="b">
+        <div class="b_">
+            <span id="projectName">projects</span>
+        </div> <div class="b__">
+            <span id="projectDesc">Here's a list of all my projects</span>
+        </div> <div class="projects">
+            <a href="https://svloog.is-a.dev/susdle"><img src="assets/projects/susdle.png" height="34" class="susdle" onmouseover="susdle(true)" onmouseleave="susdle(false)"></a>
+            <a href="https://svloog.is-a.dev/guesstheflag"><img src="assets/projects/gtf.png" height="34" class="gtf" onmouseover="gtf(true)" onmouseleave="gtf(false)"></a>
+            <a href="index.html"><img src="assets/pfp-color.png" height="34" class="website" onmouseover="website(true)" onmouseleave="website(false)"></a>
+            <a href="https://github.com/slvoog/LC-Solver/tree/master"><img src="assets/projects/lc-solver.png" height="34" class="lcsolver" onmouseover="lc(true)" onmouseleave="lc(false)"></a>
+        </div>
+    </div>
+</body>
+</html>
