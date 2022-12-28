@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+.tippy-box[data-theme~=timely] {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: #1AABE8
+}
+
+.btn-tippy {
+    background-color: #ffffff20;
+    margin-top: 5px;
+    border-width: 1px;
+    border-radius: 50px;
+    width: 25%;
+} .btn-tippy:focus {
+    outline: none;
+}
+
+wgt-400 {
+    font-weight: 500;
+}
+
+.tippy-box[data-theme~=timely]>.tippy-arrow {
+    width: 14px;
+    height: 14px
+}
+
+.tippy-box[data-theme~=timely][data-placement^=top]>.tippy-arrow:before {
+    border-width: 7px 7px 0;
+    border-top-color: #1AABE8
+}
+
+.tippy-box[data-theme~=timely][data-placement^=bottom]>.tippy-arrow:before {
+    border-width: 0 7px 7px;
+    border-bottom-color: #1AABE8
+}
+
+.tippy-box[data-theme~=timely][data-placement^=left]>.tippy-arrow:before {
+    border-width: 7px 0 7px 7px;
+    border-left-color: #1AABE8
+}
+
+.tippy-box[data-theme~=timely][data-placement^=right]>.tippy-arrow:before {
+    border-width: 7px 7px 7px 0;
+    border-right-color: #1AABE8
+}
+
+.tippy-box[data-theme~=timely]>.tippy-backdrop {
+    background-color: #1AABE8
+}
+
+.tippy-box[data-theme~=timely]>.tippy-svg-arrow {
+    fill: #1AABE8
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+
+  <link href="./css/css2" rel="stylesheet">
+
+  <title>projects - svloogz</title>
+  <meta name="description" content="everything ive done i think"> <!-- Meta description for discord/twitter/whatsapp/imessage embeds n stuff -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/tippy.css"><link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/shift-away-extreme.css">
+</head>
+<body class="bg-shinyGray overflow-x-hidden">
+  <div id="container" class="flex flex-col items-center justify-center" style="margin-top: 8%;">
+    <div class="flex flex-col items-center justify-center pt-40 text-center">
+      <div class="flex flex-col items-center justify-center pt-40 text-center logo-box">
+        <img src="./assets/svloogz.png" width="70" id="logo-img" onclick="logoClick()">
+        <script>
+          function delay(time) {
+            return new Promise(resolve => setTimeout(resolve, time));
+          }
+
+          async function logoClick() {
+            document.getElementById("logo-img").src="./assets/svloogz-blink.png";
+            await delay(300);
+            document.getElementById("logo-img").src="./assets/svloogz.png";
+          }
+        </script>
+      </div>
+      <span class="text-2xl md:text-5xl font-semibold text-white" id="txt1">My <t class="e">Projects</t></span>
+      <div class="flex flex-col md:flex-row mt-8 menu-holder" style="margin-top:0">
+        <a href="./" class="text-2xl hvr-grow blurple-hover bg-blurple p-4 md:px-8 mx-4 my-4 rounded-lg" id="btn2" style="margin-right: 10px;"><svg xmlns="http://www.w3.org/2000/svg" class="homeicon" width="30" height="30" viewBox="0 0 24 24" fill="#000" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 9v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9"/><path d="M9 22V12h6v10M2 10.6L12 2l10 8.6"/></svg></a>
+        <div class="vertical-line" style="height: 45px;"></div>
+        <a target="_blank" class="text-2xl hvr-grow blurple-hover bg-blurple p-4 md:px-8 mx-4 my-4 rounded-lg" id="btn1pj" style="margin-left: 10px; margin-right: 10px;" onmouseover="onHoverImgInvert('synthetixicon', true, '/assets/projects/synthetix_grayscale.png', '/assets/projects/synthetix.png')" onmouseleave="onHoverImgInvert('synthetixicon', false, '/assets/projects/synthetix_grayscale.png', '/assets/projects/synthetix.png')"><img src="/assets/projects/synthetix_grayscale.png" width="40" id="synthetixicon" class="synthetixicon"></a>
+        <a href="https://timely.fyi" target="_blank" class="text-2xl hvr-grow blurple-hover bg-blurple p-4 md:px-8 mx-4 my-4 rounded-lg" id="btn2pj" style="margin-left: 10px; margin-right: 10px;"><img src="/assets/projects/timely.png" width="30" id="timelyicon" class="timelyicon"></a>
+        <a href="https://svloogz.xyz" target="_blank" class="text-2xl hvr-grow blurple-hover bg-blurple p-4 md:px-8 mx-4 my-4 rounded-lg" id="btn3pj" style="margin-left: 10px; margin-right: 10px;"><img src="assets/projects/website.png" width="30" id="websiteicon" class="websiteicon"></a>
+      </div>
+    </div>
+<div id="container" class="flex flex-col items-center justify-center">
+    <div class="flex flex-col items-center justify-center pt-40 text-center" style="padding-top: 0;">
+      <span class="text-2xl md:text-5xl font-semibold              text-white"></span>
+		      <div class="flex flex-col md:flex-row mt-8" style="margin-top: 0;">
+      </div>
+     <pre>
+    <div class="flex flex-row items-center justify-center">
+      <span class="text-lg text-gray-400 font-semibold" id="txt69"><a href="https://github.com/slvoog" id="github">Copyright © Svloogz Development</a></span>
+    </div>
+  </pre></div>
+  <script src="./js/projects.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+  <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+  <script>
+    tippy('#btn1pj', {content: '<strong>Synthetix</strong><br>An AI GPT-3 and DALL-E Discord bot.', theme: 'timely', inertia: true, animation: 'shift-away-extreme', allowHTML: true, interactive: true})
+    tippy('#btn2pj', {content: '<strong>Timely</strong><br>A timekeeping program I made for my school.<br><a href="https://timely.fyi" target="_blank"><button class="btn-tippy"><wgt-400>Visit <img src="/assets/svg/redirect.svg" width="12" style="display: inline; vertical-align: middle; filter: invert(100%)"></wgt-400></button></a>', theme: 'timely', inertia: true, animation: 'shift-away-extreme', allowHTML: true, interactive: true})
+    tippy('#btn3pj', {content: '<strong>My Website</strong><br>This website I made to share my projects.<br><a href="https://svloogz.xyz" target="_blank"><button class="btn-tippy"><wgt-400>Visit <img src="/assets/svg/redirect.svg" width="12" style="display: inline; filter: invert(100%)"></wgt-400></button></a>', theme: 'timely', inertia: true, animation: 'shift-away-extreme', allowHTML: true, interactive: true})
+  </script>
+</div></pre></div></body></html>
