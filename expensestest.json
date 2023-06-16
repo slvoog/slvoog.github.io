@@ -19,7 +19,7 @@
     "amount": 500,
     "currency": "SAR",
     "type": "debit",
-    "categoryId": 150,
+    "categoryId": 140,
     "category": "Travel",
     "isEdited": false
   },
@@ -259,7 +259,7 @@
     "amount": 500,
     "currency": "SAR",
     "type": "debit",
-    "categoryId": 150,
+    "categoryId": 140,
     "category": "Travel",
     "isEdited": false
   },
@@ -451,7 +451,7 @@
     "amount": 500,
     "currency": "SAR",
     "type": "debit",
-    "categoryId": 150,
+    "categoryId": 140,
     "category": "Travel",
     "isEdited": false
   },
